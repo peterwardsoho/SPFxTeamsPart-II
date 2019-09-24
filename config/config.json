@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "sp-data-teams-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/spDataTeams/SpDataTeamsWebPart.js",
+          "manifest": "./src/webparts/spDataTeams/SpDataTeamsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SpDataTeamsWebPartStrings": "lib/webparts/spDataTeams/loc/{locale}.js"
+  }
+}
